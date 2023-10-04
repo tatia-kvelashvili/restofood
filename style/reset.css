@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+      overflow-x: hidden;
+ }
+  
+  html,
+  body,
+  div,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  a,
+  img,
+  strong,
+  b,
+  u,
+  i,
+  ol,
+  ul,
+  li,
+  article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  article,
+  footer,
+  header,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  select,
+  option,
+  input,
+  textarea {
+    border: 0px;
+    outline: none;
+  }
+  
+  button {
+    outline: none;
+    border: 0px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #be90fb;
+    border-radius: 5px;
+  }
+  
+  ::-ms-scrollbar {
+    width: 12px;
+  }
+  
+  ::-ms-scrollbar-thumb {
+    background-color: #0205058e;
+    border-radius: 5px;
+  }
